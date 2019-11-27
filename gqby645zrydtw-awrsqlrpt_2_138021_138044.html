@@ -1,0 +1,142 @@
+
+
+<html lang="en"><head><title>AWR SQL Report for DB: I2CUS17, Inst: i2cus17_ha1x02, Snaps: 138021-138044, SQL Id: gqby645zrydtw</title>
+<style type="text/css">
+body.awr {font:bold 10pt Arial,Helvetica,Geneva,sans-serif;color:black; background:White;}
+pre.awr  {font:8pt Courier;color:black; background:White;}
+h1.awr   {font:bold 20pt Arial,Helvetica,Geneva,sans-serif;color:#336699;background-color:White;border-bottom:1px solid #cccc99;margin-top:0pt; margin-bottom:0pt;padding:0px 0px 0px 0px;}
+h2.awr   {font:bold 18pt Arial,Helvetica,Geneva,sans-serif;color:#336699;background-color:White;margin-top:4pt; margin-bottom:0pt;}
+h3.awr {font:bold 16pt Arial,Helvetica,Geneva,sans-serif;color:#336699;background-color:White;margin-top:4pt; margin-bottom:0pt;}
+li.awr {font: 8pt Arial,Helvetica,Geneva,sans-serif; color:black; background:White;}
+th.awrnobg {font:bold 8pt Arial,Helvetica,Geneva,sans-serif; color:black; background:White;padding-left:4px; padding-right:4px;padding-bottom:2px}
+th.awrbg {font:bold 8pt Arial,Helvetica,Geneva,sans-serif; color:White; background:#0066CC;padding-left:4px; padding-right:4px;padding-bottom:2px}
+td.awrnc {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:White;vertical-align:top;}
+td.awrc    {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:#FFFFCC; vertical-align:top;}
+td.awrnclb {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:White;vertical-align:top;border-left: thin solid black;}
+td.awrncbb {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:White;vertical-align:top;border-left: thin solid black;border-right: thin solid black;}
+td.awrncrb {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:White;vertical-align:top;border-right: thin solid black;}
+td.awrcrb    {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:#FFFFCC; vertical-align:top;border-right: thin solid black;}
+td.awrclb    {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:#FFFFCC; vertical-align:top;border-left: thin solid black;}
+td.awrcbb    {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:#FFFFCC; vertical-align:top;border-left: thin solid black;border-right: thin solid black;}
+a.awr {font:bold 8pt Arial,Helvetica,sans-serif;color:#663300; vertical-align:top;margin-top:0pt; margin-bottom:0pt;}
+td.awrnct {font:8pt Arial,Helvetica,Geneva,sans-serif;border-top: thin solid black;color:black;background:White;vertical-align:top;}
+td.awrct   {font:8pt Arial,Helvetica,Geneva,sans-serif;border-top: thin solid black;color:black;background:#FFFFCC; vertical-align:top;}
+td.awrnclbt  {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:White;vertical-align:top;border-top: thin solid black;border-left: thin solid black;}
+td.awrncbbt  {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:White;vertical-align:top;border-left: thin solid black;border-right: thin solid black;border-top: thin solid black;}
+td.awrncrbt {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:White;vertical-align:top;border-top: thin solid black;border-right: thin solid black;}
+td.awrcrbt     {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:#FFFFCC; vertical-align:top;border-top: thin solid black;border-right: thin solid black;}
+td.awrclbt     {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:#FFFFCC; vertical-align:top;border-top: thin solid black;border-left: thin solid black;}
+td.awrcbbt   {font:8pt Arial,Helvetica,Geneva,sans-serif;color:black;background:#FFFFCC; vertical-align:top;border-top: thin solid black;border-left: thin solid black;border-right: thin solid black;}
+table.tdiff {  border_collapse: collapse; }
+.hidden   {position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;}
+.pad   {margin-left:17px;}
+.doublepad {margin-left:34px;}
+</style></head><body class="awr">
+<h1 class="awr">
+WORKLOAD REPOSITORY SQL Report
+
+</h1>
+<h2 class="awr">
+Snapshot Period Summary
+</h2>
+<p />
+<table border="1" width="500" summary="This table displays database instance information">
+<tr><th class="awrbg" scope="col">DB Name</th><th class="awrbg" scope="col">DB Id</th><th class="awrbg" scope="col">Instance</th><th class="awrbg" scope="col">Inst num</th><th class="awrbg" scope="col">Startup Time</th><th class="awrbg" scope="col">Release</th><th class="awrbg" scope="col">RAC</th></tr>
+<tr><td scope="row" class='awrnc'>I2CUS17</td><td align="right" class='awrnc'>1508263148</td><td class='awrnc'>i2cus17_ha1x02</td><td align="right" class='awrnc'>2</td><td class='awrnc'>23-Oct-19 01:10</td><td class='awrnc'>11.2.0.4.0</td><td class='awrnc'>YES</td></tr>
+</table>
+<p />
+<table border="1" width="500" summary="This table displays snapshot information">
+<tr><th class="awrnobg" scope="col"></th><th class="awrbg" scope="col">Snap Id</th><th class="awrbg" scope="col">Snap Time</th><th class="awrbg" scope="col">Sessions</th><th class="awrbg" scope="col">Cursors/Session</th></tr>
+<tr><td scope="row" class='awrnc'>Begin Snap:</td><td align="right" class='awrnc'>138021</td><td align="center" class='awrnc'>24-Nov-19 14:00:18</td><td align="right" class='awrnc'>1889</td><td align="right" class='awrnc'>     31.0</td></tr>
+<tr><td scope="row" class='awrc'>End Snap:</td><td align="right" class='awrc'>138044</td><td align="center" class='awrc'>24-Nov-19 19:45:17</td><td align="right" class='awrc'>1714</td><td align="right" class='awrc'>     35.4</td></tr>
+<tr><td scope="row" class='awrnc'>Elapsed:</td><td class='awrnc'>&#160;</td><td align="center" class='awrnc'>             344.99 (mins)</td><td class='awrnc'>&#160;</td><td class='awrnc'>&#160;</td></tr>
+<tr><td scope="row" class='awrc'>DB Time:</td><td class='awrc'>&#160;</td><td align="center" class='awrc'>           7,740.50 (mins)</td><td class='awrc'>&#160;</td><td class='awrc'>&#160;</td></tr>
+</table>
+<p />
+<a class="awr" name="10603"></a>
+<h3 class="awr">SQL Summary</h3>
+<ul>
+</ul>
+<table border="1" summary="SQL Summary"><tr><th class="awrbg" scope="col">   SQL Id</th><th class="awrbg" scope="col">Elapsed  Time (ms)</th><th class="awrbg" scope="col">Module</th><th class="awrbg" scope="col">Action</th><th class="awrbg" scope="col">SQL Text</th></tr>
+<tr><td class='awrc'><a class="awr" href="#10602gqby645zrydtw">gqby645zrydtw</a></td><td align="right" class='awrc'>302,084,661</td>
+<td class='awrc'>
+emd_s
+</td>
+<td class='awrc'>
+ act:10373:posthaus
+</td>
+<td class='awrc'><a class="awr" href="#gqby645zrydtw">SELECT REGRA, IDPRODUTO, IMAGEM_PRODUTO, VALOR_DE, URL_PRODUTO, GRUPO,...</a></td></tr>
+</table><p />
+<br /><a class="awr" href="#top">Back to Top</a><p />
+<a class="awr" name="10602gqby645zrydtw"></a>
+<h3 class="awr">SQL ID: gqby645zrydtw</h3>
+<ul>
+<li class="awr"> 1st Capture and Last Capture Snap IDs    refer to Snapshot IDs witin the snapshot range</li>
+<li class="awr"><a class="awr" href="#gqby645zrydtw">SELECT REGRA, IDPRODUTO, IMAGEM_PRODUTO, VALOR_DE, URL_PRODUTO, GRUPO,...</a></li>
+</ul>
+<table border="1" summary="SQL ID: gqby645zrydtw. . 1st Capture and Last Capture Snap IDs refer to Snapshot IDs witin the snapshot range"><tr><th class="awrbg" scope="col">#</th><th class="awrbg" scope="col">Plan Hash Value</th><th class="awrbg" scope="col">Total Elapsed Time(ms)</th><th class="awrbg" scope="col">Executions</th><th class="awrbg" scope="col">1st Capture Snap ID</th><th class="awrbg" scope="col">Last Capture Snap ID</th></tr>
+<tr><td class='awrc'><a class="awr" href="#303gqby645zrydtw3440701956">1</a></td><td class='awrc'><a class="awr" href="#303gqby645zrydtw3440701956">3440701956</a></td><td align="right" class='awrc'>302,084,661</td><td align="right" class='awrc'>333,323</td><td align="right" class='awrc'>138024</td><td align="right" class='awrc'>138026</td></tr>
+</table><p />
+<br /><a class="awr" href="#top">Back to Top</a><p />
+<a class="awr" name="303gqby645zrydtw3440701956"></a>
+<h2 class="awr">
+Plan 1(PHV: 3440701956)
+</h2>
+<ul>
+<li class="awr"><a class="awr" href="#10604gqby645zrydtw3440701956">Plan Statistics</a></li>
+<li class="awr"><a class="awr" href="#99996gqby645zrydtw3440701956">Execution Plan</a></li>
+</ul>
+<a class="awr" href="#top">Back to Top</a>
+<a class="awr" name="10604gqby645zrydtw3440701956"></a>
+<h3 class="awr">Plan Statistics</h3>
+<ul>
+<li class="awr"> % Total DB Time is the Elapsed Time of the SQL statement divided     into the Total Database Time multiplied by 100</li>
+</ul>
+<table border="1" summary="Plan Statistics. . % Total DB Time is the Elapsed Time of the SQL statement divided into the Total Database Time multiplied by 100"><tr><th class="awrbg" scope="col">Stat Name</th><th class="awrbg" scope="col">Statement Total</th><th class="awrbg" scope="col">Per Execution</th><th class="awrbg" scope="col">% Snap Total</th></tr>
+<tr><td class='awrc'>Elapsed Time (ms)</td><td align="right" class='awrc'>302,084,661</td><td align="right" class='awrc'>906.28</td><td align="right" class='awrc'>65.04</td></tr>
+<tr><td class='awrnc'>CPU Time (ms)</td><td align="right" class='awrnc'>93,461,601</td><td align="right" class='awrnc'>280.39</td><td align="right" class='awrnc'>45.78</td></tr>
+<tr><td class='awrc'>Executions</td><td align="right" class='awrc'>333,323</td><td align="right" class='awrc'>&#160;</td><td align="right" class='awrc'>&#160;</td></tr>
+<tr><td class='awrnc'>Buffer Gets</td><td align="right" class='awrnc'>3,401,506,682</td><td align="right" class='awrnc'>10,204.84</td><td align="right" class='awrnc'>11.50</td></tr>
+<tr><td class='awrc'>Disk Reads</td><td align="right" class='awrc'>0</td><td align="right" class='awrc'>0.00</td><td align="right" class='awrc'>0.00</td></tr>
+<tr><td class='awrnc'>Parse Calls</td><td align="right" class='awrnc'>307</td><td align="right" class='awrnc'>0.00</td><td align="right" class='awrnc'>0.00</td></tr>
+<tr><td class='awrc'>Rows</td><td align="right" class='awrc'>166,353,600</td><td align="right" class='awrc'>499.08</td><td align="right" class='awrc'>&#160;</td></tr>
+<tr><td class='awrnc'>User I/O Wait Time (ms)</td><td align="right" class='awrnc'>0</td><td align="right" class='awrnc'>&#160;</td><td align="right" class='awrnc'>&#160;</td></tr>
+<tr><td class='awrc'>Cluster Wait Time (ms)</td><td align="right" class='awrc'>0</td><td align="right" class='awrc'>&#160;</td><td align="right" class='awrc'>&#160;</td></tr>
+<tr><td class='awrnc'>Application Wait Time (ms)</td><td align="right" class='awrnc'>0</td><td align="right" class='awrnc'>&#160;</td><td align="right" class='awrnc'>&#160;</td></tr>
+<tr><td class='awrc'>Concurrency Wait Time (ms)</td><td align="right" class='awrc'>192</td><td align="right" class='awrc'>&#160;</td><td align="right" class='awrc'>&#160;</td></tr>
+<tr><td class='awrnc'>Invalidations</td><td align="right" class='awrnc'>0</td><td align="right" class='awrnc'>&#160;</td><td align="right" class='awrnc'>&#160;</td></tr>
+<tr><td class='awrc'>Version Count</td><td align="right" class='awrc'>129</td><td align="right" class='awrc'>&#160;</td><td align="right" class='awrc'>&#160;</td></tr>
+<tr><td class='awrnc'>Sharable Mem(KB)</td><td align="right" class='awrnc'>5,070</td><td align="right" class='awrnc'>&#160;</td><td align="right" class='awrnc'>&#160;</td></tr>
+</table><p />
+<a class="awr" href="#303gqby645zrydtw3440701956">Back to Plan 1(PHV: 3440701956)</a>
+<br /><a class="awr" href="#top">Back to Top</a><p />
+<a class="awr" name="99996gqby645zrydtw3440701956"></a>
+<h3 class="awr">
+Execution Plan
+</h3>
+<table border="1"><tr><th class="awrbg" scope="col"> Id  </th><th class="awrbg" scope="col"> Operation                       </th><th class="awrbg" scope="col"> Name                          </th><th class="awrbg" scope="col"> Rows  </th><th class="awrbg" scope="col"> Bytes </th><th class="awrbg" scope="col">TempSpc</th><th class="awrbg" scope="col"> Cost (%CPU)</th><th class="awrbg" scope="col"> Time     </th></tr>
+<tr><td class="awrnc">   0 </td><td class="awrnc">  SELECT STATEMENT                </td><td class="awrnc">&#160;</td><td class="awrnc">&#160;</td><td class="awrnc">&#160;</td><td class="awrnc">&#160;</td><td class="awrnc"> 11471 (100)</td><td class="awrnc">&#160;</td></tr>
+<tr><td class="awrc">   1 </td><td class="awrc">&#160;&#160;   COUNT STOPKEY                  </td><td class="awrc">&#160;</td><td class="awrc">&#160;</td><td class="awrc">&#160;</td><td class="awrc">&#160;</td><td class="awrc">&#160;</td><td class="awrc">&#160;</td></tr>
+<tr><td class="awrnc">   2 </td><td class="awrnc">&#160;&#160;&#160;&#160;    VIEW                          </td><td class="awrnc">&#160;</td><td class="awrnc"> 36967 </td><td class="awrnc">    81M</td><td class="awrnc">&#160;</td><td class="awrnc"> 11471   (1)</td><td class="awrnc"> 00:02:18 </td></tr>
+<tr><td class="awrc">   3 </td><td class="awrc">&#160;&#160;&#160;&#160;&#160;&#160;     SORT ORDER BY                </td><td class="awrc">&#160;</td><td class="awrc"> 36967 </td><td class="awrc">  9133K</td><td class="awrc">     9M</td><td class="awrc"> 11471   (1)</td><td class="awrc"> 00:02:18 </td></tr>
+<tr><td class="awrnc">   4 </td><td class="awrnc">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;      WINDOW SORT PUSHED RANK     </td><td class="awrnc">&#160;</td><td class="awrnc"> 36967 </td><td class="awrnc">  9133K</td><td class="awrnc">     9M</td><td class="awrnc"> 11471   (1)</td><td class="awrnc"> 00:02:18 </td></tr>
+<tr><td class="awrc">   5 </td><td class="awrc">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;       TABLE ACCESS BY INDEX ROWID</td><td class="awrc"> SUP_00000007162               </td><td class="awrc"> 36967 </td><td class="awrc">  9133K</td><td class="awrc">&#160;</td><td class="awrc">  7702   (1)</td><td class="awrc"> 00:01:33 </td></tr>
+<tr><td class="awrnc">   6 </td><td class="awrnc">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;        INDEX RANGE SCAN          </td><td class="awrnc"> IDOTAF_7162PERCENTUAL_ESTOQUE </td><td class="awrnc">   109K</td><td class="awrnc">&#160;</td><td class="awrnc">&#160;</td><td class="awrnc">   231   (1)</td><td class="awrnc"> 00:00:03 </td></tr>
+</table><br />
+<ul>
+<li class="awr">    cardinality feedback used for this statement</li>
+</ul>
+<p />
+<a class="awr" href="#303gqby645zrydtw3440701956">Back to Plan 1(PHV: 3440701956)</a>
+<br /><a class="awr" href="#top">Back to Top</a><p />
+<a class="awr" name="99997"></a>
+<p />
+<h3 class="awr">Full SQL Text</h3><p />
+<table border="1" summary="This table displays the text of the SQL statements which have been
+      referred to in the report">
+<tr><th class="awrbg" scope="col">SQL Id</th><th class="awrbg" scope="col">SQL Text</th></tr>
+<tr><td scope="row" class='awrc'><a class="awr" name="gqby645zrydtw"></a>gqby645zrydtw</td><td class='awrc'>SELECT REGRA,  IDPRODUTO,  IMAGEM_PRODUTO,  VALOR_DE,  URL_PRODUTO,  GRUPO,  PERCENTUAL_ESTOQUE,  MODIFIED_DATE_,  VALOR_VENDA,  DES_PRODUTO,  systimestamp MASTER_FETCH_TIME__ from posthaus_CUST.SSV_0002641402 WHERE REGRA = :1 AND ROWNUM &lt;= 500 </td></tr>
+</table>
+<p />
+<br /><a class="awr" href="#top">Back to Top</a><p />
+</body></html>
